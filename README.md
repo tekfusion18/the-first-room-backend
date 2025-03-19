@@ -23,8 +23,13 @@ Ensure you have the following installed on your system:
    docker run -p 4000:4000 my-backend-app
    ```
    - The `-p 4000:4000` flag maps port 4000 of the container to port 4000 of your local machine.
+  
+4. **Run the Docker Container While listening the local changes**
+   ```sh
+   docker-compose up -d
+   ```
 
-4. **Access the Backend API**
+5. **Access the Backend API**
    Open your browser or use a tool like Postman to access:
    ```md
    http://localhost:4000
